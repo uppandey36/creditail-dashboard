@@ -1,0 +1,22 @@
+export const COLORS = {
+    white: '#FFF',
+    primaryColor: '#2760B6',
+    boxShadowColor: 'rgba(16, 24, 40, 0.05)',
+    sidebarBackground: '#161617',
+    selectedTabBackground: '#212327',
+    nonSelectedTabTextColor: '#D0D0D0',
+    topTextColor: '#E6E6E6',
+    sectionNameColor: '#646464',
+    organizationBorder: '#C6C6C6',
+    textBlack: '#2F2F2F',
+    labelBlack: '#101828',
+    cardBorder: '#D0D5DD',
+    contentText: '#475467',
+    modalBackground: 'rgba(52, 64, 84, 0.70)',
+    docBorder: '#EAECF0',
+    calenderDateText: '#344054',
+    disableDate: '#667085',
+    rangeDate: '#F9FAFB',
+    reportsHead: '#30313D',
+    tabelHeaderBackground: '#EFEFEF'
+}
