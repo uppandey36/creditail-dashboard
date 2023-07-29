@@ -16,7 +16,7 @@ export const COLORS = {
     docBorder: '#EAECF0',
     calenderDateText: '#344054',
     disableDate: '#667085',
-    rangeDate: '#F9FAFB',
+    rangeDate: '#dae1e8',
     reportsHead: '#30313D',
     tabelHeaderBackground: '#EFEFEF'
 }

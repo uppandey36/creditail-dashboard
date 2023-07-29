@@ -42,15 +42,12 @@ export const DateWrapper = styled.div`
         width: 40px;
         height: 40px;
         border-radius: 20px;
+        margin: 0.166rem 0px;
     }
 
     .react-datepicker__day--in-range {
         background: ${COLORS.rangeDate};
-    }
-
-    .react-datepicker__day--outside-month {
-        background: transparent;
-        color: ${COLORS.white};
+        border-radius: 0px;
     }
 
     .react-datepicker__current-month {
@@ -68,8 +65,24 @@ export const DateWrapper = styled.div`
         color: ${COLORS.disableDate};
     }
 
-    .react-datepicker__day--keyboard-selected {
+    .react-datepicker__day--range-end {
         color: ${COLORS.white};
         background: ${COLORS.primaryColor};
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    .react-datepicker__day--range-start {
+        color: ${COLORS.white};
+        background: ${COLORS.primaryColor};
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .react-datepicker__navigation--next {
+        right: -331px;
+    }
+
+    .react-datepicker__day--outside-month {
+        background: transparent;
+        color: ${COLORS.white};
     }
 `
